@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .toolbar {
+    @apply xs:top-5 xs:left-6 absolute top-10 left-77 text-2xlCustom text-grayOne uppercase font-inconsolata not-italic	font-bold	;
+  }
+
+  .footer {
+    @apply text-grayThree font-montserrat font-medium not-italic text-smCustom;
+    u {
+      @apply font-bold;
+    }
+  }
+
+}
