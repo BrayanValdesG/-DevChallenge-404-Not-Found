@@ -26,8 +26,7 @@
   }
 
   .description {
-    width: 381px;
-    @apply font-spaceMono font-normal not-italic text-description text-grayTwo xs:text-base mt-9 xs:ml-6;
+    @apply font-spaceMono font-normal not-italic text-description text-grayTwo xs:text-base mt-9 xs:ml-6 w-381px xs:w-328px;
   }
 
   button {

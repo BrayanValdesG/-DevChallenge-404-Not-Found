@@ -28,6 +28,8 @@ module.exports = {
         "238px":"238px",
         "119px": "119px",
         "118.75px": "118.75px",
+        "381px": "381px",
+        "328px": "328px"
       },
       fontSize: {
         'toolbar': ['24px', {
