@@ -8,9 +8,13 @@ module.exports = {
       screens: {
         'xs': { 'max': '375px' },
       },
+      // padding: {
+      //   'body': '40px 119px 24px 77px',
+      // },
       fontFamily: {
         'inconsolata': ['Inconsolata', 'monospace'],
         'montserrat': ['Montserrat', 'sans-serif'],
+        'spaceMono': ['Space Mono', 'monospace'],
       },
       colors: {
         "primary": "#FFFFFF",
@@ -19,7 +23,8 @@ module.exports = {
         "grayThree": "#BDBDBD",
       },
       spacing: {
-        "77": "77px",
+        "77px": "77px",
+        "40%": "40%",
       },
       fontSize: {
         '2xlCustom': ['24px', {

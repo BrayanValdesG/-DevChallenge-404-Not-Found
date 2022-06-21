@@ -5,14 +5,22 @@
 
 @layer components {
 
-  .toolbar {
-    @apply xs:top-5 xs:left-6 absolute top-10 left-77 text-2xlCustom text-grayOne uppercase font-inconsolata not-italic	font-bold	;
+  .body {
+    @apply bg-primary;
   }
 
-  .footer {
-    @apply text-grayThree font-montserrat font-medium not-italic text-smCustom;
-    u {
-      @apply font-bold;
+  .toolbar {
+    @apply xs:top-5 xs:left-6 absolute top-10 left-77px text-2xlCustom text-grayOne uppercase font-inconsolata not-italic	font-bold	;
+  }
+
+  .content {
+    @apply flex;
+  }
+
+  footer {
+    @apply text-grayThree font-montserrat font-medium not-italic text-smCustom fixed text-center w-full bottom-6;
+    a {
+      @apply font-bold underline;
     }
   }
 
