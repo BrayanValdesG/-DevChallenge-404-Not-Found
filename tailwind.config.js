@@ -8,9 +8,6 @@ module.exports = {
       screens: {
         'xs': { 'max': '375px' },
       },
-      // padding: {
-      //   'body': '40px 119px 24px 77px',
-      // },
       fontFamily: {
         'inconsolata': ['Inconsolata', 'monospace'],
         'montserrat': ['Montserrat', 'sans-serif'],
@@ -29,15 +26,28 @@ module.exports = {
         "447.43px":"447.43px",
         "286.83px":"286.83px",
         "238px":"238px",
+        "119px": "119px",
       },
       fontSize: {
-        '2xlCustom': ['24px', {
+        'toolbar': ['24px', {
           letterSpacing: '-0.08em',
           lineHeight: '25px',
         }],
-        'smCustom': ['14px', {
+        'footer': ['14px', {
           lineHeight: '17px',
-        }]
+        }],
+        'title': ['60px', {
+          letterSpacing: '-0.035em',
+          lineHeight: '95px',
+        }],
+        'description': ['24px', {
+          letterSpacing: '-0.035em',
+          lineHeight: '36px',
+        }],
+        'button': ['14px', {
+          letterSpacing: '-0.035em',
+          lineHeight: '21px',
+        }],
       },
     },
   },

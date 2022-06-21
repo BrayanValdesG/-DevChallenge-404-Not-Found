@@ -10,19 +10,37 @@
   }
 
   .toolbar {
-    @apply xs:top-5 xs:left-6 absolute top-10 left-77px text-2xlCustom text-grayOne uppercase font-inconsolata not-italic	font-bold	;
+    @apply xs:top-5 xs:left-6 absolute top-10 left-77px text-toolbar text-grayOne uppercase font-inconsolata not-italic	font-bold	;
   }
 
   .container {
-    @apply flex pl-77px pt-20 xs:pl-0;
+    @apply flex pl-77px pr-119px pt-20 xs:pl-0;
   }
 
   img {
     @apply xs:w-286.83px xs:h-238px xs:justify-center flex-initial w-539.22px h-447.43px;
   }
 
+  .title {
+    @apply font-spaceMono font-bold	not-italic text-title text-grayOne;
+  }
+
+  .description {
+    width: 381px;
+    margin-top: 36px;
+    @apply font-spaceMono font-normal not-italic text-description text-grayTwo;
+  }
+
+  button {
+    margin-top: 64px;
+    @apply bg-grayOne w-52 h-16;
+    a {
+      @apply font-spaceMono font-bold not-italic text-primary text-button uppercase;
+    }
+  }
+
   footer {
-    @apply text-grayThree font-montserrat font-medium not-italic text-smCustom fixed text-center w-full bottom-6;
+    @apply text-grayThree font-montserrat font-medium not-italic text-footer fixed text-center w-full bottom-6;
     a {
       @apply font-bold underline;
     }
