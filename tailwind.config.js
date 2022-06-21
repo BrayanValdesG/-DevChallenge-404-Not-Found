@@ -27,6 +27,7 @@ module.exports = {
         "286.83px":"286.83px",
         "238px":"238px",
         "119px": "119px",
+        "118.75px": "118.75px",
       },
       fontSize: {
         'toolbar': ['24px', {
