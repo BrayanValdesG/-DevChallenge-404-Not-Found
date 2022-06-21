@@ -25,6 +25,10 @@ module.exports = {
       spacing: {
         "77px": "77px",
         "40%": "40%",
+        "539.22px": "539.22px",
+        "447.43px":"447.43px",
+        "286.83px":"286.83px",
+        "238px":"238px",
       },
       fontSize: {
         '2xlCustom': ['24px', {
